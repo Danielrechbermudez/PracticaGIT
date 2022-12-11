@@ -16,7 +16,7 @@ namespace Practica2._3VersionGIT
             //Leo el telegrama
             textoTelegrama = txtTelegrama.Text;
             // telegrama urgente?
-            if (cbUrgente.Checked)
+            if (rUrgente.Checked)
                 tipoTelegrama = 'u';
             else
                 tipoTelegrama = char.Parse("o");
